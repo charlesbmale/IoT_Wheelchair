@@ -16,8 +16,8 @@ GPIO.setup(37, GPIO.OUT)
 GPIO.setup(38, GPIO.OUT)
 
 #Motor input
-mymotor1 = Motor(enable1=16, pwm1=17, pwm2=18)
-mymotor2 = Motor(enable1=6, pwm1=14, pwm2=15)
+mymotor1 = Motor(enable1=20, enable2 = 21, pwm1=19, pwm2=26)
+mymotor2 = Motor(enable1=11, enable2 = 9, pwm1=18, pwm2=17)
 
 #Starting forward speed
 fspeed=0.5
