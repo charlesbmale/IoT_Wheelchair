@@ -1,1 +1,3 @@
-
+ensure both motors are in the manual position
+run manual code before to ensure that there are no motor issues
+check that IP/broker is correct on both sub and pub
